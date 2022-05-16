@@ -49,10 +49,24 @@
     
 }
 
+.lefttext2 {
+    display: flex;  
+    
+}
+.righttext2 {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+}
+
 .space {
     margin-right: 2rem;
     width: 30px;
 
+}
+
+.space2 {
+    margin-right: 2rem; 
 }
 
 .blackline {
@@ -75,4 +89,25 @@
     display: flex;
     justify-content: end ;
     flex-direction: row;
+}
+
+
+.text2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    width: 100%;
+}
+
+
+
+.top {
+    position: relative; 
+    left: 5.5rem;
+}
+
+.top2 {
+    position: relative;
+    left: 5%;
 }
