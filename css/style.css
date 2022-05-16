@@ -14,7 +14,7 @@
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     border: solid 2px black;
     width: 350px;
     padding: 5px;
@@ -49,36 +49,10 @@
     
 }
 
-.lefttext2 {
-    display: flex;  
-    width: 50%;
-    text-align: start;
-    
-}
-
-.less2 {
-    width: 70%;
-}
-
-.less {
-    width: 30% !important;
-
-}
-
-.righttext2 {
-    display: flex;
-    justify-content: start;
-    text-align: start;
-}
-
 .space {
     margin-right: 2rem;
     width: 30px;
 
-}
-
-.space2 {
-    margin-right: 2rem; 
 }
 
 .blackline {
@@ -105,15 +79,13 @@
 
 
 .text2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: start;
+    display: flex; 
+    justify-content: center; 
     width: 100%;
 }
 
 
-
+/*
 .top {
     position: relative; 
     left: 5.5rem;
@@ -122,4 +94,44 @@
 .top2 {
     position: relative;
     left: 5%;
+}
+
+*/
+
+.lefttext2 {
+    display: flex;  
+    width: 70%;
+    text-align: center;
+    
+}
+
+.less2 {
+    width: 70%;
+}
+
+.less {
+    width: 30% !important;
+
+}
+
+.righttext2 {
+    display: flex; 
+    text-align: center;
+}
+.space2 {
+    margin-right: 2rem; 
+}
+
+.new {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newf {
+    width: 25%;
+
+}
+
+.news {
+    width: 25%;
 }
