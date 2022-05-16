@@ -51,8 +51,20 @@
 
 .lefttext2 {
     display: flex;  
+    width: 50%;
+    text-align: start;
     
 }
+
+.less2 {
+    width: 70%;
+}
+
+.less {
+    width: 30% !important;
+
+}
+
 .righttext2 {
     display: flex;
     justify-content: start;
