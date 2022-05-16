@@ -42,11 +42,24 @@
     justify-content: end;
 }
 
+.lefttext {
+    display: flex;
+    justify-content: start;
+}
+
 .space {
     margin-right: 2rem;
+    width: 30px;
+
 }
 
 .blackline {
+    background-color: black;
+    height: 2px;
+    margin: 5px;
+}
+
+.middlethickline {
     background-color: black;
     height: 2px;
     margin: 5px;
