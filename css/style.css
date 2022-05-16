@@ -17,6 +17,7 @@
     transform: translate(-50%, -50%);
     border: solid 2px black;
     width: 350px;
+    padding: 5px;
 
 }
 
@@ -63,4 +64,8 @@
     background-color: black;
     height: 2px;
     margin: 5px;
+}
+
+.margin {
+    margin-left: 9px;
 }
