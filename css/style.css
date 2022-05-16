@@ -2,3 +2,52 @@
     margin: 0;
     padding: 0;
 }
+
+.thick-border {
+    height: 20px;
+    background-color: black;
+
+}
+
+.border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: solid 2px black;
+    width: 350px;
+
+}
+
+.flex {
+    display:flexbox ;
+}
+
+.right-text {
+    text-align: right;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.righttext {
+    display: flex;
+    justify-content: end;
+}
+
+.space {
+    margin-right: 2rem;
+}
+
+.blackline {
+    background-color: black;
+    height: 2px;
+    margin: 5px;
+}
