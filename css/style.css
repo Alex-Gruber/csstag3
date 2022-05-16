@@ -46,6 +46,7 @@
 .lefttext {
     display: flex;
     justify-content: start;
+    
 }
 
 .space {
@@ -68,4 +69,10 @@
 
 .margin {
     margin-left: 9px;
+}
+
+.calorie-text {
+    display: flex;
+    justify-content: end ;
+    flex-direction: row;
 }
